@@ -1,0 +1,27 @@
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\Piu  Input Test.exe.config
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\Piu  Input Test.exe
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\Piu  Input Test.pdb
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\MainWindow.g.cs
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\App.g.cs
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\Piu  Input Test_MarkupCompile.cache
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\Piu  Input Test_MarkupCompile.lref
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\MainWindow.baml
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\Piu  Input Test.g.resources
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\Piu__Input_Test.Properties.Resources.resources
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\Piu  Input Test.csproj.GenerateResource.Cache
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\Piu  Input Test.exe
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\Piu  Input Test.pdb
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\AForge.Controls.dll
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\AForge.Video.dll
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\AForge.dll
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\AForge.Imaging.dll
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\AForge.Math.dll
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\AForge.Controls.xml
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\AForge.Video.xml
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\AForge.xml
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\AForge.Imaging.xml
+c:\users\edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\bin\Debug\AForge.Math.xml
+C:\Users\Edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\Config.g.cs
+C:\Users\Edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\Config.baml
+C:\Users\Edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\IO.g.cs
+C:\Users\Edson\documents\visual studio 2015\Projects\Piu  Input Test\Piu  Input Test\obj\Debug\IO.baml

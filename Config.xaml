@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Piu__Input_Test.Config"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Piu__Input_Test"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Height="800" Width="820" MinWidth="820" >
+    
+    <Grid Background="Black" Name="Panel">
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Width="{DynamicResource {x:Static SystemParameters.PrimaryScreenWidthKey}}">
+            <MenuItem Header="Menu">
+                <MenuItem Header="I/O Test" HorizontalAlignment="Left" Width="200" Click="MenuItem_Click_1"
+			/>
+                <MenuItem Header="Joystick configuration" HorizontalAlignment="Left" Width="200" 
+			 />
+                <Separator HorizontalAlignment="Left" Width="140"/>
+                <MenuItem Header="Exit" HorizontalAlignment="Left" Width="200" Click="MenuItem_Click" 
+			 />
+            </MenuItem>
+        </Menu>
+        <Label x:Name="label" Content="Joystick configuration" Margin="85,19,85,0" VerticalAlignment="Top"  FontFamily="Segoe UI Semibold" Foreground="#FFFFF7F7" ForceCursor="True" FontSize="50" HorizontalAlignment="Center" />
+        <Label x:Name="UpLeft" Content="Up Left" HorizontalAlignment="Left" Margin="89,127,0,0" VerticalAlignment="Top" Foreground="#FFFFF7F7" FontFamily="Segoe UI Semibold" FontSize="30" />
+        <Label x:Name="UpRight" Content="Up Right" HorizontalAlignment="Left" Margin="89,182,0,0" VerticalAlignment="Top" Foreground="#FFFFF7F7" FontFamily="Segoe UI Semibold" FontSize="30" />
+        <Label x:Name="Center" Content="Center" HorizontalAlignment="Left" Margin="89,237,0,0" VerticalAlignment="Top" Foreground="#FFFFF7F7" FontFamily="Segoe UI Semibold" FontSize="30" />
+        <Label x:Name="DownLeft" Content="Down Left" HorizontalAlignment="Left" Margin="89,292,0,0" VerticalAlignment="Top" Foreground="#FFFFF7F7" FontFamily="Segoe UI Semibold" FontSize="30" />
+        <Label x:Name="DownRight" Content="Down Right" HorizontalAlignment="Left" Margin="89,347,0,0" VerticalAlignment="Top" Foreground="#FFFFF7F7" FontFamily="Segoe UI Semibold" FontSize="30" />
+        <TextBox x:Name="LabelUpLeft" HorizontalAlignment="Left" Height="50" Margin="284,132,0,0"  VerticalAlignment="Top" Foreground="#FF999999" Width="120" FontFamily="Segoe UI Semibold" FontSize="30" BorderThickness="0,0,0,3" GotFocus="LabelUpLeft_GotFocus" LostFocus="LabelUpLeft_LostFocus" Background="Black"  />
+        <TextBox x:Name="LabelUpRight" HorizontalAlignment="Left" Height="50" Margin="284,187,0,0"   VerticalAlignment="Top" Foreground="#FF999999" Width="120" FontFamily="Segoe UI Semibold" FontSize="30" BorderThickness="0,0,0,3" Background="Black" GotFocus="LabelUpRight_GotFocus" LostFocus="LabelUpRight_LostFocus" />
+        <TextBox x:Name="LabelCenter" HorizontalAlignment="Left" Height="50" Margin="284,242,0,0" VerticalAlignment="Top" Foreground="#FF999999" Width="120" FontFamily="Segoe UI Semibold" FontSize="30"  BorderThickness="0,0,0,3" Background="Black" GotFocus="LabelCenter_GotFocus" LostFocus="LabelCenter_LostFocus"  />
+        <TextBox x:Name="LabelDownLeft" HorizontalAlignment="Left" Height="50" Margin="284,297,0,0"  VerticalAlignment="Top" Foreground="#FF999999" Width="120" FontFamily="Segoe UI Semibold" FontSize="30"  BorderThickness="0,0,0,3" Background="Black" GotFocus="LabelDownLeft_GotFocus" LostFocus="LabelDownLeft_LostFocus" />
+        <TextBox x:Name="LabelDownRight" HorizontalAlignment="Left" Height="50" Margin="284,352,0,0"  VerticalAlignment="Top" Foreground="#FF999999" Width="120" FontFamily="Segoe UI Semibold" FontSize="30" BorderThickness="0,0,0,3" Background="Black" GotFocus="LabelDownRight_GotFocus" LostFocus="LabelDownRight_LostFocus"/>
+        <Button x:Name="button" Content="Save configuration" HorizontalAlignment="Left" Margin="262,476,0,0" VerticalAlignment="Top"  FontFamily="Segoe UI Semibold" FontSize="30" Click="button_Click"/>
+
+    </Grid>
+</UserControl>

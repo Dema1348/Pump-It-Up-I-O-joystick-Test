@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="Piu__Input_Test.IO"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Piu__Input_Test"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Height="800" Width="820" MinWidth="820" >
+    <Grid Background="Black" Name="Panel">
+        <Menu HorizontalAlignment="Left" VerticalAlignment="Top" Width="{DynamicResource {x:Static SystemParameters.PrimaryScreenWidthKey}}">
+            <MenuItem Header="Menu">
+                <MenuItem Header="I/O Test" HorizontalAlignment="Left" Width="200" 
+			/>
+                <MenuItem Header="Joystick configuration" HorizontalAlignment="Left" Width="200" Click="MenuItem_Click_1" 
+			 />
+                <Separator HorizontalAlignment="Left" Width="140"/>
+                <MenuItem Header="Exit" HorizontalAlignment="Left" Width="200" Click="MenuItem_Click" 
+			 />
+            </MenuItem>
+        </Menu>
+        <Grid Margin="87,96,83,54" Background="#FF172D5B" MinHeight="650" MinWidth="650" Width="650" Height="650" MaxWidth="650" MaxHeight="650">
+            <Rectangle x:Name="DownLeft" Height="200" Width="200" VerticalAlignment="Top" Margin="25,425,425,0"  Fill="Black" Stroke="#FFBDCF0D" StrokeThickness="10" RenderTransformOrigin="-0.067,0.491"/>
+            <Rectangle x:Name="UpLeft" Height="200" Width="200" VerticalAlignment="Top" Margin="25,25,425,0" Fill="Black" Stroke="#FFBDCF0D" StrokeThickness="10"/>
+            <Rectangle x:Name="Center" Height="200" Width="200" Margin="225,224,225,224"  Fill="Black" Stroke="#FFBDCF0D" StrokeThickness="10"/>
+            <Rectangle x:Name="UpRight" Height="200" Width="200" VerticalAlignment="Top" Margin="425,25,25,0"   Fill="Black" Stroke="#FFBDCF0D" StrokeThickness="10"/>
+            <Rectangle x:Name="DownRight" Height="200" Width="200" VerticalAlignment="Top"  Margin="425,425,25,0"  Fill="Black"  Stroke="#FFBDCF0D" StrokeThickness="10"/>
+        </Grid>
+        <Label x:Name="label" Content="I/O Test" Margin="306,19,307,0" VerticalAlignment="Top" FontFamily="Segoe UI Semibold" Foreground="#FFFFF7F7" ForceCursor="True" FontSize="50" />
+    </Grid>
+</UserControl>
